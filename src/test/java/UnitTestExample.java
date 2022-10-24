@@ -9,7 +9,7 @@ class LeapYearTests {
     @DisplayName("Check if 2000 is leap year")
     void checkIf2000IsLeapYear() {
         LeapYear leapYear = new LeapYear();
-        Assertions.assertTrue(leapYear.isLeapYear(2001));
+        Assertions.assertTrue(leapYear.isLeapYear(2000));
 
     }
 
