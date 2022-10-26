@@ -1,15 +1,14 @@
 import org.LeapYear.LeapYear;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assumptions;
-import org.junit.jupiter.api.Assertions;
 
 class LeapYearTests {
     @Test
     @DisplayName("Check if 2000 is leap year")
     void checkIf2000IsLeapYear() {
         LeapYear leapYear = new LeapYear();
-        Assertions.assertTrue(leapYear.isLeapYear(2000));
+        Assertions.assertTrue(leapYear.isLeapYear(2001));
 
     }
 
